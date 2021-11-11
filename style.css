@@ -19,6 +19,9 @@ body {
     height: 100%;
 }
 
+header {
+}
+
 ::selection {
     color:mediumaquamarine;
 }
@@ -117,6 +120,7 @@ footer {
     font-size: 30px;
     position: relative;
     bottom: 0;
+    height: 10%;
 }
 
 
@@ -131,6 +135,10 @@ footer {
         margin: 10px 5% 30px 5%;
     
     }    
+
+    main {
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 768px)  {
@@ -143,7 +151,11 @@ footer {
         text-align: center;
         margin: 10px 5% 30px 5%;
     
-    }    
+    }   
+
+    main {
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 992px)  {
@@ -157,4 +169,8 @@ footer {
         margin: 10px 18% 30px 18%;
     
     }    
+
+    main {
+        height: 80%;
+    }
 }
